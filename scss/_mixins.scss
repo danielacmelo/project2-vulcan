@@ -1,0 +1,47 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+//center elements
+@mixin margin-center {
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+
+//clearing out margins and padding- for typo elements
+@mixin flatten {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+// set foreground imgs to cover container 
+@mixin img-cover($abs-pos: true){
+    @if($abs-pos){
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+//element to cover parent completely
+@mixin el-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+//set link to non-default look
+@mixin plain-link($c: white){
+    text-decoration: none;
+    color: $c;
+}

@@ -1,0 +1,39 @@
+@use "variables" as *;
+
+.mobile-header-wrapper {
+    display: flex;
+    background-color: $nav-bg;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vulcan-logo {
+    size: 50%;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+.nav-bar {
+    display: none;
+}
+
+.nav-bar ul {
+    list-style: none;
+}
+
+.nav-bar li {
+    text-decoration: none;
+    display: block;
+}
+

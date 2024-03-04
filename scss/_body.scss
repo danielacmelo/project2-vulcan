@@ -1,0 +1,19 @@
+// Body Styles
+@use "variables" as *;
+
+
+
+
+body {
+    background-color: $wave-light;
+  
+}
+
+iframe{
+    width: 400px;
+    height: 200px;
+    align-self: center;
+}
+.section-media p a {
+    display: none;
+}

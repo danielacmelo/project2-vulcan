@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+h1, h2, h3, nav a {
+  font-family: Roboto Condensed, sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 860px;
+}
+
+body {
+  background-color: #009DDC;
+}
+
+iframe {
+  width: 400px;
+  height: 200px;
+  align-self: center;
+}
+
+.section-media p a {
+  display: none;
+}
+
+.site-top-links {
+  display: none;
+}
+
+.mobile-header-wrapper {
+  display: flex;
+  background-color: rgba(56, 56, 56, 0.5137254902);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vulcan-logo {
+  size: 50%;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.nav-bar ul {
+  list-style: none;
+}
+
+.nav-bar li {
+  text-decoration: none;
+  display: block;
+}
+
+footer {
+  padding: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */
