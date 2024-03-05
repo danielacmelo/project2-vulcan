@@ -45,3 +45,20 @@
     text-decoration: none;
     color: $c;
 }
+
+//LAYOUTS
+
+//flex-row and even spacing
+@mixin flex-layout-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+//flex with centered elements
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

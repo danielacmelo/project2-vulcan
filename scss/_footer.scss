@@ -9,4 +9,26 @@ footer {
 }
 
 
+.section-footer{
+    color: $wave-white;
+    background-image: url(/images/wave-blue-light.png);
+  
+}
+.section-footer li {
+    list-style: none;
+    padding-left: 1rem;
+    color: $wave-white;
+}
+
+.section-footer img{
+    width: 30px;
+    height: 30px;
+}
+.section-footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+   
+}
 
