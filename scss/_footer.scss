@@ -16,7 +16,7 @@ footer {
 }
 .section-footer li {
     list-style: none;
-    padding-left: 1rem;
+   
     color: $wave-white;
 }
 
@@ -28,7 +28,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 1rem;
+    padding-left: 0;
+    gap: 1rem;
    
 }
+
+//practice github
 
