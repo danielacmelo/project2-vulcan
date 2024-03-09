@@ -56,6 +56,12 @@ iframe {
   display: none;
 }
 
+.wave,
+.site-logo {
+  width: 100%;
+  height: auto;
+}
+
 .site-top-links {
   display: none;
 }
@@ -108,7 +114,6 @@ footer {
 
 .section-footer li {
   list-style: none;
-  padding-left: 1rem;
   color: #ffffff;
 }
 
@@ -121,7 +126,39 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 1rem;
+  padding-left: 0;
+  gap: 1rem;
+}
+
+.section-signup {
+  background-color: #B1CDE1;
+}
+
+.section-signup h2 {
+  font-size: 1rem;
+  color: #244A64;
+  font-weight: 500;
+  padding: 0.5rem 1rem 1rem;
+  margin: 1rem;
+}
+
+.submit {
+  background-color: #009DDC;
+  border-color: #009DDC;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-style: none;
+  margin: 0.5rem;
+}
+
+label {
+  display: none;
+}
+
+.mailbox {
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
