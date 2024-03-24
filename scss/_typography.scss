@@ -6,6 +6,10 @@ body {
     font-weight: $font-weight;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
 h1, h2, h3, nav a {
     font-family: $heading-font;
 }
@@ -26,6 +30,7 @@ h3{
 p{
     font-size: 1.6rem;
 }
+
 a{
     text-decoration: none;
 }

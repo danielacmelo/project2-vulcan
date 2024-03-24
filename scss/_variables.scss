@@ -3,10 +3,13 @@ $wave-dark: #244A64;
 $wave-light: #009DDC;
 $wave-white: #ffffff;
 $nav-bg: #38383883;
+$background-gray:#BBBBBB;
 
 // Text Colors
 $text-color-dark: #1b1b1b;
 $text-color-light: #ffffff;
+$text-color-blue: #009DDC;
+$text-color-gray: #646464;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
@@ -14,7 +17,7 @@ $body-font: Roboto, serif;
 $heading-font: Roboto Condensed, sans-serif;
 
 // Typographic Defualts
-$line-height: 1.4;
+$line-height: 1.2;
 $font-weight: 400;
 
 
