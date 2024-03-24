@@ -130,6 +130,18 @@ footer {
   gap: 1rem;
 }
 
+.section-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+iframe {
+  border: 5px;
+  color: #244A64;
+}
+
 .section-install {
   background-image: url(/images/map.jpg);
   display: flex;

@@ -1,0 +1,12 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "typography" as *;
+
+.section-media {
+    @include flex-center;
+}
+
+iframe {
+    border: 5px;
+    color: $wave-dark
+}
