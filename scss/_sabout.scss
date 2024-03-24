@@ -39,3 +39,11 @@ a:hover, a:visited{
     color: #fff;
     font-weight: $font-weight;
 }
+
+@media (min-width: $tabletLandscape) {
+    .section-about p {
+        min-width:  700px;
+       
+    }
+}
+
