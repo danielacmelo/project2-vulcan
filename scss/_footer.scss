@@ -91,13 +91,18 @@ footer {
         flex-wrap: wrap; 
         justify-content: space-between; 
         align-items: center; 
+        
     }
-    
+    .section-footer p {
+        display: inline-block;
+    }
     .section-footer p, 
     .section-footer a {
+        
         font-size: 1rem;
-        padding-top: 1.7rem;
+        
         margin: 0; 
+        
     }
     
     .section-footer a {
@@ -107,12 +112,11 @@ footer {
     .section-footer .Vulcan {
         flex: 0 0 auto; 
         height: 70px;
+        display: inline-block;
         // padding-right: 40rem;
+        margin-left: 0 auto;
 
-        padding: 0rem;
-     margin: 0rem;
-    margin-left: 0rem;
-    padding-right: 0rem;
+   
    
     }
     
@@ -127,6 +131,9 @@ footer {
         list-style: none;
         margin-right: auto;
         margin-left: auto;
+    }
+    .section-footer ul li{
+        display: inline-block;
     }
 }
 //practice github
