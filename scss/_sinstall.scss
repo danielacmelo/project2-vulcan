@@ -1,35 +1,62 @@
+
 @use "variables" as *;
 @use "mixins" as *;
 @use "typography" as *;
 
+
 .section-install {
-    background-image: url(/images/map.jpg);
     @include flex-center;
+    background-image: url(../images/map.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 85vw;  
+    gap: 10px;
     
-    h2,
+    h2 {
+        text-transform: uppercase;
+        color: #313D47;
+        text-align: center;
+        margin: 0 3rem;
+        padding: 0 3rem;
+        font-weight: 800;
+    }
+
     button {
         text-transform: uppercase;
         color: #313D47;
         border-color: #313D47;
-        
+        background-color: transparent;
+        font-size: 1rem;
+        padding: .75rem;
+        font-weight: 600;
     }
 }
 
 .section-ready {
     background-color: $wave-dark;
+    width: 100vw;
+    height: 85vw; 
+    gap: 10px;
+
     @include flex-center;
-    
-    h2,
+
+    h2 {
+        text-transform: uppercase;
+        color: $wave-white;
+        text-align: center;
+        margin: 0 3rem;
+        padding: 0 4rem;
+        font-weight: 800;
+    }
+
     button {
         text-transform: uppercase;
         color: $wave-white;
         border-color: $wave-white;
+        background-color: transparent;
+        font-size: 1rem;
+        padding: .75rem;
+        font-weight: 600;
     }
 }
-
-
-button {
-    background-color: transparent;
-    padding: .5rem;
-}
-
