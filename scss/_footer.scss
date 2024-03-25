@@ -9,8 +9,8 @@ footer {
 }
 
 .section-footer .Vulcan{
-   width: 200px;
-   height: 60px;
+   width: 12.5rem;
+   height: 3.75rem;
 
 }
 .section-footer{
@@ -22,15 +22,14 @@ footer {
 }
 .section-footer li {
     list-style: none;
-   
     color: $wave-white;
 }
 
 .section-footer img{
     display: block;
     margin: 0 auto;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .section-footer ul{
     display: flex;
@@ -47,7 +46,7 @@ footer {
 }
 
 .section-footer,  a:hover, a:visited, a:active, a:link{ 
-    color: #fff;
+    color: $wave-white;
     font-weight: $font-weight;
     font-size: 1.3rem;
 }
@@ -63,8 +62,8 @@ footer {
       
     }
     .section-footer img{
-        width: 40px;
-        height: 40px;
+        width: 3rem;
+        height: 3rem;
     }
     .section-footer .Vulcan{
         display: inline;
@@ -78,29 +77,27 @@ footer {
     .section-footer p {
         padding: 0rem;
         margin: 0 auto;
-        // display: table-cell;
-        // padding-left: 28rem;
         display: block;
         text-align: right;
         margin-right: 10rem;
+       
     }
 }
 @media (min-width: $desktopMedium) {
-    .section-footer {
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: space-between; 
-        align-items: center; 
+    // .section-footer {
+    //     display: flex;
+    //     flex-wrap: wrap; 
+    //     justify-content: space-between; 
+    //     align-items: center; 
         
-    }
+    // }
     .section-footer p {
         display: inline-block;
+        vertical-align:super;
     }
     .section-footer p, 
     .section-footer a {
-        
         font-size: 1rem;
-        
         margin: 0; 
         
     }
@@ -111,18 +108,18 @@ footer {
     
     .section-footer .Vulcan {
         flex: 0 0 auto; 
-        height: 70px;
+        height: 4.3rem;
         display: inline-block;
-        // padding-right: 40rem;
         margin-left: 0 auto;
+        padding-right: 30rem;
 
    
    
     }
     
     .section-footer img {
-        width: 30px;
-        height: 30px;
+        width: 3rem;
+        height: 3rem;
     }
     
     .section-footer ul {
@@ -131,6 +128,7 @@ footer {
         list-style: none;
         margin-right: auto;
         margin-left: auto;
+       
     }
     .section-footer ul li{
         display: inline-block;
