@@ -19,7 +19,7 @@
 .section-about h2{
    font-weight: $font-weight;
     line-height: $line-height;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 .section-about p {
@@ -40,10 +40,28 @@ a:hover, a:visited{
     font-weight: $font-weight;
 }
 
-@media (min-width: $tabletLandscape) {
+@media (min-width:$tabletLandscape) {
     .section-about p {
-        min-width:  700px;
+        min-width:  600px;
        
     }
+    .section-about h2{
+       
+         font-size: 3rem;
+        max-width: 600px;
+        
+     }
 }
 
+@media (min-width: $desktopMedium){
+    .section-about p {
+        min-width:  800px;
+       
+    }
+    .section-about h2{
+       
+         font-size: 4rem;
+        max-width: 800px;
+        
+     }
+}

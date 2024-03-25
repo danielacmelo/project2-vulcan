@@ -8,11 +8,16 @@ footer {
     padding: $padding;
 }
 
+.section-footer .Vulcan{
+   width: 200px;
+   height: 60px;
 
+}
 .section-footer{
     color: $wave-white;
     text-align: center;
     background-image: url(../images/wave-blue-light.png);
+    
   
 }
 .section-footer li {
@@ -47,6 +52,82 @@ footer {
     font-size: 1.3rem;
 }
 
+@media (min-width:$tabletLandscape) {
+    .section-footer ul{
+      display: inline-flex;
+      flex-direction:row;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 1.5rem;
+      gap: 1rem;
+      
+    }
+    .section-footer img{
+        width: 40px;
+        height: 40px;
+    }
+    .section-footer .Vulcan{
+        display: inline;
+        padding-right: 6rem;
+        width: auto;
+        height: 90px;
+    }
+    .section-footer a{
+        padding: 1.2rem;
+    }
+    .section-footer p {
+        padding: 0rem;
+        margin: 0 auto;
+        // display: table-cell;
+        // padding-left: 28rem;
+        display: block;
+        text-align: right;
+        margin-right: 10rem;
+    }
+}
+@media (min-width: $desktopMedium) {
+    .section-footer {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    
+    .section-footer p, 
+    .section-footer a {
+        font-size: 1rem;
+        padding-top: 1.7rem;
+        margin: 0; 
+    }
+    
+    .section-footer a {
+        margin-right: 1rem; 
+    }
+    
+    .section-footer .Vulcan {
+        flex: 0 0 auto; 
+        height: 70px;
+        // padding-right: 40rem;
 
+        padding: 0rem;
+     margin: 0rem;
+    margin-left: 0rem;
+    padding-right: 0rem;
+   
+    }
+    
+    .section-footer img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .section-footer ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 //practice github
 
