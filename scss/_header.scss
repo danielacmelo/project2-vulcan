@@ -1,6 +1,14 @@
 // Header Styles
 @use "variables" as *;
 
+// IMPORTANT - REMOVE BEFORE MERGING //
+///////////////////////////////////////
+.section-media iframe {
+    width: 20rem;
+}
+
+//////////////////////////////////////
+
 .site-header {
     // background-image: url(/images/header-slider-img-03.jpg);
 }
@@ -8,5 +16,3 @@
 .site-top-links {
     display: none;
 }
-
-// Testing PR
