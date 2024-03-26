@@ -494,37 +494,4 @@ button {
   padding: 0.5rem;
 }
 
-.section-install {
-  background-image: url(/images/map.jpg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.section-install h2,
-.section-install button {
-  text-transform: uppercase;
-  color: #313D47;
-  border-color: #313D47;
-}
-
-.section-ready {
-  background-color: #244A64;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.section-ready h2,
-.section-ready button {
-  text-transform: uppercase;
-  color: #ffffff;
-  border-color: #ffffff;
-}
-
-button {
-  background-color: transparent;
-  padding: 0.5rem;
-}
-
 /*# sourceMappingURL=styles.css.map */

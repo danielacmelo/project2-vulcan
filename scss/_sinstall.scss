@@ -1,35 +1,35 @@
-@use "variables" as *;
-@use "mixins" as *;
-@use "typography" as *;
+// @use "variables" as *;
+// @use "mixins" as *;
+// @use "typography" as *;
 
-.section-install {
-    background-image: url(/images/map.jpg);
-    @include flex-center;
+// .section-install {
+//     background-image: url(/images/map.jpg);
+//     @include flex-center;
     
-    h2,
-    button {
-        text-transform: uppercase;
-        color: #313D47;
-        border-color: #313D47;
+//     h2,
+//     button {
+//         text-transform: uppercase;
+//         color: #313D47;
+//         border-color: #313D47;
         
-    }
-}
+//     }
+// }
 
-.section-ready {
-    background-color: $wave-dark;
-    @include flex-center;
+// .section-ready {
+//     background-color: $wave-dark;
+//     @include flex-center;
     
-    h2,
-    button {
-        text-transform: uppercase;
-        color: $wave-white;
-        border-color: $wave-white;
-    }
-}
+//     h2,
+//     button {
+//         text-transform: uppercase;
+//         color: $wave-white;
+//         border-color: $wave-white;
+//     }
+// }
 
 
-button {
-    background-color: transparent;
-    padding: .5rem;
-}
+// button {
+//     background-color: transparent;
+//     padding: .5rem;
+// }
 
