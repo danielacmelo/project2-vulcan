@@ -80,9 +80,10 @@
         button {
             background-color: $wave-light;
             border-color: $wave-light;
+            border: none;
         }
     }
-    
+       
     .section-install {
         width: 100vw;
         height: 50vw;
@@ -97,14 +98,39 @@
             background-color: $wave-light;
             border-color: $wave-light;
             color: $wave-white;
+            border: none;
         }
     }
 }
 
 
 @include desktop-med {
-    
+
     .section-ready {
-        height: 50vw;
+        height: 30vw;
+
+        h2 {
+            font-size: 2.5rem;
+            margin: 0 3rem;
+            padding: 1.5rem 3rem;
+        }
+
+        button {
+            padding: .5rem 1rem;
+        }
+    }
+
+    .section-install {
+        height: 30vw;
+
+        h2 {
+            font-size: 2.5rem;
+            margin: 0 6rem;
+            padding: 1.5rem 5rem;
+        }
+
+        button {
+            padding: .5rem 1rem;
+        }
     }
 }
