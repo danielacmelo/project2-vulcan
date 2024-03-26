@@ -28,15 +28,15 @@ footer {
 .section-footer img{
     display: block;
     margin: 0 auto;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
 }
 .section-footer ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 0;
-    gap: 1rem;
+    
    
 }
 
@@ -50,7 +50,26 @@ footer {
     font-weight: $font-weight;
     font-size: 1.3rem;
 }
+a.call, a.email {
+    position: relative;
+}
+a.call::before {
+    content: "\e801";
+    font-family: "fontello";
+    // position: absolute;
+    
+    left: 0;
+    top: 0;
+}
 
+a.email::before {
+    content: "\e800";
+    font-family: "fontello";
+
+   
+    left: 0;
+    top: 0;
+}
 @media (min-width:$tabletLandscape) {
     .section-footer ul{
       display: inline-flex;
@@ -82,28 +101,43 @@ footer {
         margin-right: 10rem;
        
     }
+    a.call, a.email {
+        position: relative;
+    }
+    a.call::before {
+        content: "\e801";
+        font-family: "fontello";
+        // position: absolute;
+        
+        left: 0;
+        top: 0;
+    }
+    
+    a.email::before {
+        content: "\e800";
+        font-family: "fontello";
+      
+       
+        left: 0;
+        top: 0;
+    }
 }
 @media (min-width: $desktopMedium) {
-    // .section-footer {
-    //     display: flex;
-    //     flex-wrap: wrap; 
-    //     justify-content: space-between; 
-    //     align-items: center; 
-        
-    // }
+   
     .section-footer p {
         display: inline-block;
-        vertical-align:super;
+        vertical-align: 0.8rem;
     }
     .section-footer p, 
     .section-footer a {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin: 0; 
         
     }
     
     .section-footer a {
         margin-right: 1rem; 
+        font-size: 1.2rem;
     }
     
     .section-footer .Vulcan {
@@ -118,8 +152,8 @@ footer {
     }
     
     .section-footer img {
-        width: 3rem;
-        height: 3rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
     
     .section-footer ul {
@@ -133,6 +167,27 @@ footer {
     .section-footer ul li{
         display: inline-block;
     }
+    a.call, a.email {
+        position: relative;
+    }
+    a.call::before {
+        content: "\e801";
+        font-family: "fontello";
+        // position: absolute;
+        
+        left: 0;
+        top: 0;
+    }
+    
+    a.email::before {
+        content: "\e800";
+        font-family: "fontello";
+        left: 0;
+        top: 0;
+    }
 }
+
+
+
 //practice github
 
