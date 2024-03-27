@@ -15,6 +15,14 @@ h3 {
     text-align: center;
 }
 
+.section-customized h2 {
+    margin: 10px 50px;
+}
+
+.section-customized p {
+    margin: 0 30px;
+}
+
 .section-customized img {
     width: 12.5rem;
     padding: .625rem;
@@ -44,3 +52,8 @@ h3 {
 .article-section-customized:first-child{
     border:none;
 } 
+
+.wave-dark-wave {
+    object-fit: cover;
+    width: 100%;
+}
