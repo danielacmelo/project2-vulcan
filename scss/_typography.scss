@@ -6,7 +6,7 @@ body {
     font-weight: $font-weight;
 }
 
-h1, h2, h3, nav a {
+h1, h2, h3, h4, h5, h6, nav a {
     font-family: $heading-font;
 }
 
@@ -19,6 +19,7 @@ h2{
     font-size: 2rem;
     color: $text-color-dark-gray;
     text-transform: $text-transform-upper;
+    text-align: center;
    
 }
 h3{
@@ -27,6 +28,7 @@ h3{
 }
 p{
     font-size: 1.125rem;
+    text-align: center;
 }
 a{
     text-decoration: none;
