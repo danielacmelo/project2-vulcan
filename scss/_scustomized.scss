@@ -23,11 +23,6 @@ h3 {
     margin: 0 30px;
 }
 
-.section-customized img {
-    width: 12.5rem;
-    padding: .625rem;
-}
-
 .section-customized a,
 .section-customized a:visited,
 .section-customized a:hover,
@@ -52,6 +47,12 @@ h3 {
 .article-section-customized:first-child{
     border:none;
 } 
+
+.article-section-customized img {
+    width: 12.5rem;
+    padding: .625rem;
+}
+
 
 .wave-dark-wave {
     object-fit: cover;
