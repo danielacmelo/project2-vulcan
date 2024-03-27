@@ -6,7 +6,7 @@ h3 {
     color: $text-color-dark-gray;
     text-transform: $text-transform-upper;
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 
@@ -20,7 +20,7 @@ h3 {
 }
 
 .section-customized p {
-    margin: 0 30px;
+    margin: 0 10px;
 }
 
 .section-customized a,
@@ -39,7 +39,7 @@ h3 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 1.25rem;
+    margin: 1.25rem .625rem;
     border-top: 1px solid $background-gray;
     text-align: left;
 }
