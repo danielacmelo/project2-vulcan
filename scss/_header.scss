@@ -8,8 +8,38 @@
 }
 
 //////////////////////////////////////
+
 .site-top-links {
     display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-top-links ul{
+    padding: 0;
+    vertical-align: top;
+}
+
+.site-top-links li {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.site-top-links li a {
+    color: $text-color-light;
+    text-transform: uppercase;
+}
+
+@media (min-width: $tabletPortrait) {
+    .site-top-links {
+        display: flex;
+    }
+}
+
+.top-vulcan-logo img {
+    width: 10rem;
+    padding-top: 2rem;
 }
 
 .site-header h1 {
@@ -22,10 +52,22 @@
     height: 14.375rem;
 }
 
+@media (min-width: $tabletPortrait) {
+    .site-header h1{
+        height: auto;
+    }
+}
+
 .view-links ul {
     text-align: center;
     padding: 0;
     height: 4.8125rem;
+}
+
+@media (min-width: $tabletPortrait) {
+    .view-links ul{
+        height: auto;
+    }
 }
 
 .view-links li {
@@ -41,6 +83,13 @@
     padding: 0.5rem;
     width: 10rem;
     border: .0625rem solid $text-color-light;
+}
+
+@media (min-width: $tabletPortrait) {
+    .view-links li {
+        display: inline-block;
+        margin: 0 1rem;
+    }
 }
 
 .slide-container {
@@ -66,6 +115,12 @@
     text-align: center;
 }
 
+@media (min-width: $tabletPortrait) {
+    .slide-buttons {
+        width: 6rem;
+    }
+}
+
 .slide-btn {
     display: inline-block;
     padding: 0.3rem;
@@ -75,10 +130,23 @@
     cursor: pointer;
 }
 
+@media (min-width: $tabletPortrait) {
+    .slide-btn {
+        padding: 0.5rem;
+    }
+}
+
 .wave {
     left: 0;
     overflow: hidden;
     object-fit: cover;
     height: 5rem;
     width: 100%;
+}
+
+@media (min-width: $tabletPortrait) {
+    .wave {
+        height: 7rem;
+        object-fit: fill;
+    }
 }

@@ -6,7 +6,11 @@ body {
     font-weight: $font-weight;
 }
 
-h1, h2, h3, nav a {
+h1,
+h2, 
+h3,
+nav a,
+.site-top-links a {
     font-family: $heading-font;
 }
 

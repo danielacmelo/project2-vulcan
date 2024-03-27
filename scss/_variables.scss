@@ -18,7 +18,6 @@ $line-height: 1.4;
 $font-weight: 400;
 
 
-
 // // Layout variables
 $padding: 30px;
 
@@ -29,8 +28,8 @@ $link-hover-selector: '&:hover, &:focus, &:active';
 $desktop-min: 50rem; // Temp value, can change
 
 // Media Query Breakpoints
-$desktopMedium: em(1251);
-$tabletLandscape: em(1024);
-$tabletPortrait: em(850);
-$phoneLandscape: em(670);
-$phonePortrait: em(420);
+$desktopMedium: 78.1875em;
+$tabletLandscape: 64em;
+$tabletPortrait: 53.125em;
+$phoneLandscape: 41.875em;
+$phonePortrait: 26.25em;
