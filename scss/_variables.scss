@@ -7,6 +7,9 @@ $nav-bg: #38383883;
 // Text Colors
 $text-color-dark: #1b1b1b;
 $text-color-light: #ffffff;
+$text-color-gray: #646464;
+$text-color-dark-gray:#707070;
+
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
@@ -15,7 +18,7 @@ $heading-font: Roboto Condensed, sans-serif;
 
 // Typographic Defualts
 $line-height: 1.4;
-$font-weight: 400px;
+$font-weight: 400;
 
 
 
@@ -29,6 +32,7 @@ $link-hover-selector: '&:hover, &:focus, &:active';
 $desktop-min: 50rem; // Temp value, can change
 
 // Media Query Breakpoints
+
 $desktopMedium: 78.1875rem;
 $tabletLandscape: 64rem;
 $tabletPortrait: 53.125rem;
