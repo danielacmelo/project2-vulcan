@@ -1,6 +1,36 @@
 @use "variables" as *;
 @use "mixins" as *;
 
+
 h3 {
     color: $text-color-dark-gray;
+    text-transform: $text-transform-upper;
 }
+
+
+.section-customized {
+    background-color: $wave-white;
+    text-align: center;
+}
+
+
+.section-customized a,
+.section-customized a:visited,
+.section-customized a:hover,
+.section-customized a:active,
+.section-customized a:focus{  
+    color: $text-color-dark-gray;
+    text-decoration: $text-decoration-under;
+    display: none;
+}
+
+
+.article-section-customized {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+

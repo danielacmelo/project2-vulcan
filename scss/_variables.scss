@@ -8,7 +8,7 @@ $nav-bg: #38383883;
 $text-color-dark: #1b1b1b;
 $text-color-light: #ffffff;
 $text-color-gray: #646464;
-$text-color-dark-gray:#707070;
+$text-color-dark-gray:#545454;
 
 
 // Fonts
@@ -19,6 +19,8 @@ $heading-font: Roboto Condensed, sans-serif;
 // Typographic Defualts
 $line-height: 1.4;
 $font-weight: 400;
+$text-transform-upper: uppercase;
+$text-decoration-under: underline; 
 
 
 
@@ -28,13 +30,15 @@ $padding: 30px;
 // Utility variables
 $link-hover-selector: '&:hover, &:focus, &:active';
 
+
+
 // Sizing
-$desktop-min: 50rem; // Temp value, can change
+$desktop-min: 50em; // Temp value, can change
 
 // Media Query Breakpoints
 
-$desktopMedium: 78.1875rem;
-$tabletLandscape: 64rem;
-$tabletPortrait: 53.125rem;
-$phoneLandscape: 41.875rem;
-$phonePortrait: 26.25rem;
+$desktopMedium: 78.1875em;
+$tabletLandscape: 64em;
+$tabletPortrait: 53.125em;
+$phoneLandscape: 41.875em;
+$phonePortrait: 26.25em;
