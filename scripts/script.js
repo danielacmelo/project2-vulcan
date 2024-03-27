@@ -1,9 +1,13 @@
 // Menu Scripts //
 //////////////////
 const menu = document.getElementById("nav-bar");
+const items = document.getElementById("items");
+const hamburger = document.getElementById("hamburger-menu");
 
 function toggleMenu() {
     menu.classList.toggle("show");
+    items.classList.toggle("show");
+    hamburger.classList.toggle("switch");
 }
 
 // Slideshow scripts //
