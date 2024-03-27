@@ -14,6 +14,12 @@
     }
 }
 
+@media (min-width: $desktopMedium) {
+    .mobile-nav-wrapper {
+        max-width: 830px;
+    }
+}
+
 .mobile-header-wrapper {
     display: flex;
     justify-content: space-between;
@@ -97,7 +103,7 @@
 .nav-bar ul {
     transform: translateY(-200%);
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -148,5 +154,17 @@
 
     .desktop-nav-items {
         display: block;
+    }
+}
+
+@media (min-width: $desktopMedium) {
+    .nav-bar {
+        max-width: 51.875rem;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .nav-bar ul li {
+        padding: 1.5rem 2.5rem;
     }
 }
