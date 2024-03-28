@@ -2,7 +2,9 @@
 @use "mixins" as *;
 
 .section-customized h2 {
+    position: relative;
     color: $text-color-dark-gray;
+    z-index: 2;
 }
 
 .section-customized h3 {
