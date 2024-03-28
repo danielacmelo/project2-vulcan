@@ -74,52 +74,26 @@
 
 
 
-// @media (min-width: $tabletPortrait) {
-
-
-// 	.section-product-advisor label {
-// 		display: flex;
-// 		flex-direction: row;
-// 		margin-bottom: .3125rem;
-
-// }
-
-// .section-product-advisor form {
-//     max-width: auto;
-// }
-
-
-// .section-product-advisor h2{
-// 	font-size: 2.5rem;
-// }
-
-// .section-product-advisor p{
-// 	font-size: 1.25rem;
-// }
-
-
-
-// }
-
-
 @media (min-width: $tabletPortrait) {
-	form {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
 
-		label {
-			width: 30%; 
-		}
-	}
+
+
+
+
+.section-product-advisor h2{
+	font-size: 2.5rem;
 }
 
-@media (min-width: $desktopMedium) {
-	form {
-		flex-wrap: nowrap;
+.section-product-advisor p{
+	font-size: 1.25rem;
+}
 
-		label {
-			width: auto;
-		}
-	}
+
+
+}
+
+
+@media (min-width: $desktopMedium) {
+	
+	
 }
