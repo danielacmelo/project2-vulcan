@@ -15,7 +15,7 @@ $heading-font: Roboto Condensed, sans-serif;
 
 // Typographic Defualts
 $line-height: 1.4;
-$font-weight: 400;
+$font-weight: 400px;
 
 
 
@@ -29,8 +29,12 @@ $link-hover-selector: '&:hover, &:focus, &:active';
 $desktop-min: 50rem; // Temp value, can change
 
 // Media Query Breakpoints
-$desktopMedium: em(1251);
-$tabletLandscape: em(1024);
-$tabletPortrait: em(850);
-$phoneLandscape: em(670);
-$phonePortrait: em(420);
+$desktopMedium: 78.1875rem;
+$tabletLandscape: 64rem;
+$tabletPortrait: 53.125rem;
+$phoneLandscape: 41.875rem;
+$phonePortrait: 26.25rem;
+
+
+//tablet widsth and height
+

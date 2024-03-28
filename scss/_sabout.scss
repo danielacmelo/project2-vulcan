@@ -1,0 +1,65 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+
+.section-about{
+    background-image: url(../images/bg-section-about-us.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9.3rem 0 ;  
+    color: $text-color-light;
+    text-align: center;
+    
+}
+.section-about h2{
+    font-weight: $font-weight;
+    line-height: $line-height;
+    margin-bottom: 2rem;
+}
+.section-about p {
+    font-size: 1.25rem;
+    margin: 0 auto 2rem;
+    width: 18.75rem;
+}
+.section-about a{
+    border: 1px solid $wave-white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: $font-weight;
+}
+
+a:hover, a:visited{
+    color: $wave-white;
+    font-weight: $font-weight;
+}
+
+@media (min-width:$tabletLandscape) {
+    .section-about p {
+        min-width:  37.5rem;
+       
+    }
+    .section-about h2{
+       
+        font-size: 3rem;
+        max-width: 37.5rem;
+        
+     }
+}
+
+@media (min-width: $desktopMedium){
+    .section-about p {
+        min-width:  50rem;
+       
+    }
+    .section-about h2{
+       
+         font-size: 4rem;
+        max-width: 50rem;
+        
+     }
+}

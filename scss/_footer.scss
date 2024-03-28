@@ -8,30 +8,186 @@ footer {
     padding: $padding;
 }
 
+.section-footer .Vulcan{
+   width: 12.5rem;
+   height: 3.75rem;
 
+}
 .section-footer{
     color: $wave-white;
-    background-image: url(/images/wave-blue-light.png);
+    text-align: center;
+    background-image: url(../images/wave-blue-light.png);
+    
   
 }
 .section-footer li {
     list-style: none;
-   
     color: $wave-white;
 }
 
 .section-footer img{
-    width: 30px;
-    height: 30px;
+    display: block;
+    margin: 0 auto;
+    width: 2rem;
+    height: 2rem;
 }
 .section-footer ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 0;
-    gap: 1rem;
+    
    
 }
+
+.section-footer p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.section-footer,  a:hover, a:visited, a:active, a:link{ 
+    color: $wave-white;
+    font-weight: $font-weight;
+    font-size: 1.3rem;
+}
+a.call, a.email {
+    position: relative;
+}
+a.call::before {
+    content: "\e801";
+    font-family: "fontello";
+    // position: absolute;
+    
+    left: 0;
+    top: 0;
+}
+
+a.email::before {
+    content: "\e800";
+    font-family: "fontello";
+
+   
+    left: 0;
+    top: 0;
+}
+@media (min-width:$tabletLandscape) {
+    .section-footer ul{
+      display: inline-flex;
+      flex-direction:row;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 1.5rem;
+      gap: 1rem;
+      
+    }
+    .section-footer img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .section-footer .Vulcan{
+        display: inline;
+        padding-right: 6rem;
+        width: auto;
+        height: 90px;
+    }
+    .section-footer a{
+        padding: 1.2rem;
+    }
+    .section-footer p {
+        padding: 0rem;
+        margin: 0 auto;
+        display: block;
+        text-align: right;
+        margin-right: 10rem;
+       
+    }
+    a.call, a.email {
+        position: relative;
+    }
+    a.call::before {
+        content: "\e801";
+        font-family: "fontello";
+        // position: absolute;
+        
+        left: 0;
+        top: 0;
+    }
+    
+    a.email::before {
+        content: "\e800";
+        font-family: "fontello";
+      
+       
+        left: 0;
+        top: 0;
+    }
+}
+@media (min-width: $desktopMedium) {
+   
+    .section-footer p {
+        display: inline-block;
+        vertical-align: 0.8rem;
+    }
+    .section-footer p, 
+    .section-footer a {
+        font-size: 1.2rem;
+        margin: 0; 
+        
+    }
+    
+    .section-footer a {
+        margin-right: 1rem; 
+        font-size: 1.2rem;
+    }
+    
+    .section-footer .Vulcan {
+        flex: 0 0 auto; 
+        height: 4.3rem;
+        display: inline-block;
+        margin-left: 0 auto;
+        padding-right: 30rem;
+
+   
+   
+    }
+    
+    .section-footer img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .section-footer ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-right: auto;
+        margin-left: auto;
+       
+    }
+    .section-footer ul li{
+        display: inline-block;
+    }
+    a.call, a.email {
+        position: relative;
+    }
+    a.call::before {
+        content: "\e801";
+        font-family: "fontello";
+        // position: absolute;
+        
+        left: 0;
+        top: 0;
+    }
+    
+    a.email::before {
+        content: "\e800";
+        font-family: "fontello";
+        left: 0;
+        top: 0;
+    }
+}
+
+
 
 //practice github
 

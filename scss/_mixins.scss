@@ -68,14 +68,18 @@
     align-items: center;
 }
 
-
 //breakpoint mixins
 @mixin phone-portrait {
     @media (max-width: 420px) { @content; }
 }
+
+//     align-content: center;
+// }
+
 @mixin tablet-portrait {
     @media (min-width: 850px) { @content; }
 }
+
 @mixin desktop-med {
     @media (min-width: 1251px) { @content; }
 }
