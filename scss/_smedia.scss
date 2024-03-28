@@ -3,11 +3,9 @@
 @use "typography" as *;
 
 
-
-
 .section-media {
     @include flex-center;
-    margin: 60px;
+    margin: 3.75em;
 }
 
 .video-wrapper {
@@ -15,12 +13,12 @@
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    width: calc(100% - 120px); 
-    margin: 0 120px; 
+    width: calc(100% - 10px); 
+    margin: 0 7.5em; 
 }
 
 .media {
-    border: 20px solid $wave-dark;
+    border: 1.25em solid $wave-dark;
     background-color: #367D22;
     position: absolute;
     top: 50%;
@@ -30,7 +28,10 @@
     height: 100%;
 }
 
-button {
-    background-color: transparent;
-    padding: .5rem;
+
+@include tablet-portrait {
+    .video-wrapper {
+        width: calc(100% - 50px); 
+    }
+
 }
