@@ -7,6 +7,7 @@
     color: $text-color-light; 
     background-color: $wave-dark; 
 	padding: 0 .625rem;
+
 }
 
 .section-product-advisor h2{
@@ -75,24 +76,50 @@
 
 // @media (min-width: $tabletPortrait) {
 
-// 	.forms-section-advisor {
+
+// 	.section-product-advisor label {
 // 		display: flex;
 // 		flex-direction: row;
-// 	}
+// 		margin-bottom: .3125rem;
 
 // }
 
-// @media (min-width: $desktopMedium) {
+// .section-product-advisor form {
+//     max-width: auto;
+// }
 
-// 	.container-section-advisor {
-// 		display: flex;
-// 		flex-direction: row;
-// 		justify-content: space-between; 
-// 		align-items: center; 
-// 	}	
-	
-// 	.forms-section-advisor {
-// 		display: flex;
-// 		flex-direction: row;
-// 	}
-// 	}
+
+// .section-product-advisor h2{
+// 	font-size: 2.5rem;
+// }
+
+// .section-product-advisor p{
+// 	font-size: 1.25rem;
+// }
+
+
+
+// }
+
+
+@media (min-width: $tabletPortrait) {
+	form {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		label {
+			width: 30%; 
+		}
+	}
+}
+
+@media (min-width: $desktopMedium) {
+	form {
+		flex-wrap: nowrap;
+
+		label {
+			width: auto;
+		}
+	}
+}
