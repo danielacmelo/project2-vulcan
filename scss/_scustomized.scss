@@ -6,10 +6,10 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    // height: 1060px; LEAVE FOR AARON
+    // height: 1060px; // LEAVE FOR AARON
 }
 
-//Adjustments for dark-wave
+// //Adjustments for dark-wave
 // @media (min-width: 26.875em) {
 //     .section-customized {
 //         height: calc(100% - 20px);
@@ -22,7 +22,7 @@
 //     }
 // }
 
-// @media (min-width: 68.75em) {                    LEAVE FOR AARON
+// @media (min-width: 68.75em) {                   // LEAVE FOR AARON
 //     .section-customized {
 //         height: 1000px;
 //     }
@@ -45,6 +45,7 @@
     text-transform: $text-transform-upper;
     font-size: 1rem;
     font-weight: 700;
+    width: 6rem;
 }
 
 .section-customized p {
