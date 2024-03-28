@@ -7,10 +7,12 @@
     color: $text-color-light; 
     background-color: $wave-dark; 
 	padding: 0 .625rem;
+
 }
 
 .section-product-advisor h2{
 	margin-bottom: .25rem;
+	margin-top: 0;
 }
 
 .section-product-advisor p{
@@ -70,3 +72,28 @@
     border: none;    
 }
 
+
+
+@media (min-width: $tabletPortrait) {
+
+
+
+
+
+.section-product-advisor h2{
+	font-size: 2.5rem;
+}
+
+.section-product-advisor p{
+	font-size: 1.25rem;
+}
+
+
+
+}
+
+
+@media (min-width: $desktopMedium) {
+	
+	
+}
