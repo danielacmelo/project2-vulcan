@@ -11,6 +11,7 @@
 
 .section-product-advisor h2{
 	margin-bottom: .25rem;
+	margin-top: 0;
 }
 
 .section-product-advisor p{
@@ -70,3 +71,28 @@
     border: none;    
 }
 
+
+
+// @media (min-width: $tabletPortrait) {
+
+// 	.forms-section-advisor {
+// 		display: flex;
+// 		flex-direction: row;
+// 	}
+
+// }
+
+// @media (min-width: $desktopMedium) {
+
+// 	.container-section-advisor {
+// 		display: flex;
+// 		flex-direction: row;
+// 		justify-content: space-between; 
+// 		align-items: center; 
+// 	}	
+	
+// 	.forms-section-advisor {
+// 		display: flex;
+// 		flex-direction: row;
+// 	}
+// 	}
