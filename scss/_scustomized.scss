@@ -61,30 +61,53 @@ h3 {
     width: 100%;
 }
 
-@media ($tabletPortrait) {
+// @media (min-width: $tabletPortrait) {
+
+//     .container-service-customized {
+//         display: flex;
+//         flex-direction: row;
+//     }
+
+//     }
+
+
+@media (min-width: $desktopMedium) {
 
     .container-service-customized {
         display: flex;
         flex-direction: row;
     }
 
+    .section-customized a,
+    .section-customized a:visited,
+    .section-customized a:hover,
+    .section-customized a:active,
+    .section-customized a:focus{  
+        display: inline-block;
     }
-
     
-    @media ($tabletPortrait) {
-
-        .container-service-customized {
-            display: flex;
-            flex-direction: row;
-        }
     
-        }
+    .article-section-customized {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+        border-top: none;
+        text-align: center;
+    }
+    
+    
+    .article-section-customized img {
+        width: 100%;
+    }
+    
+    .wave-dark-wave {
+        left: 0;
+        height: auto;
+        width: 100%;
+    }
+    
 
-     @media ($desktopMedium) {
-        .container-service-customized {
-            display: flex;
-            flex-direction: row;
-        }
 
-     }   
+    }   
     
