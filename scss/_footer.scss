@@ -3,61 +3,70 @@
 @use "variables" as *;
 @use "mixins" as *;
 
-
-footer {
-    padding: $padding;
+.light-wave {
+    background-color: $wave-dark;
+    position: relative;
+    margin: 0;
+    top: -0.5rem;
 }
 
 .section-footer .Vulcan{
-   width: 12.5rem;
-   height: 3.75rem;
-
+    width: 6rem;
+    height: auto;
 }
+
 .section-footer{
     color: $wave-white;
     text-align: center;
-    background-image: url(../images/wave-blue-light.png);
-    
-  
+    height: auto;
 }
+
 .section-footer li {
     list-style: none;
     color: $wave-white;
 }
 
-.section-footer img{
+.footer-logos {
+    margin: 1rem 1rem;
+}
+
+.footer-logos img{
     display: block;
     margin: 0 auto;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
+
 .section-footer ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 0;
-    
-   
 }
 
 .section-footer p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
 }
 
-.section-footer,  a:hover, a:visited, a:active, a:link{ 
+.section-footer a,
+.section-footer a:hover,
+.section-footer a:visited
+.section-footer a:active,
+.section-footer a:link{ 
     color: $wave-white;
     font-weight: $font-weight;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
 }
+
 a.call, a.email {
     position: relative;
 }
+
 a.call::before {
     content: "\e801";
     font-family: "fontello";
-    // position: absolute;
-    
     left: 0;
     top: 0;
 }
@@ -65,12 +74,19 @@ a.call::before {
 a.email::before {
     content: "\e800";
     font-family: "fontello";
-
-   
     left: 0;
     top: 0;
 }
-@media (min-width:$tabletLandscape) {
+
+@media (min-width:$tabletPortrait) {
+
+    .light-wave {
+        background-color: transparent;
+        position: relative;
+        margin: 0;
+        top: -4rem;
+    }
+
     .section-footer ul{
       display: inline-flex;
       flex-direction:row;
@@ -80,35 +96,42 @@ a.email::before {
       gap: 1rem;
       
     }
-    .section-footer img{
+
+    .footer-logos img{
         width: 3rem;
         height: 3rem;
     }
+
     .section-footer .Vulcan{
         display: inline;
         padding-right: 6rem;
         width: auto;
-        height: 90px;
+        height: 5.625rem;
     }
-    .section-footer a{
-        padding: 1.2rem;
+
+    .section-footer a,
+    .section-footer a:hover,
+    .section-footer a:visited
+    .section-footer a:active,
+    .section-footer a:link { 
+        font-size: 1rem;
     }
+
     .section-footer p {
         padding: 0rem;
-        margin: 0 auto;
-        display: block;
-        text-align: right;
-        margin-right: 10rem;
-       
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 20rem;
     }
+
     a.call, a.email {
         position: relative;
     }
+
     a.call::before {
         content: "\e801";
         font-family: "fontello";
-        // position: absolute;
-        
         left: 0;
         top: 0;
     }
@@ -116,42 +139,44 @@ a.email::before {
     a.email::before {
         content: "\e800";
         font-family: "fontello";
-      
-       
         left: 0;
         top: 0;
     }
 }
 @media (min-width: $desktopMedium) {
    
+    .section-footer {
+        margin-bottom: 4rem;
+    }
+
     .section-footer p {
         display: inline-block;
         vertical-align: 0.8rem;
     }
-    .section-footer p, 
-    .section-footer a {
+
+    .section-footer p {
         font-size: 1.2rem;
-        margin: 0; 
-        
+        margin: 0;
     }
     
-    .section-footer a {
-        margin-right: 1rem; 
+    .section-footer a,
+    .section-footer a:hover,
+    .section-footer a:visited
+    .section-footer a:active,
+    .section-footer a:link { 
         font-size: 1.2rem;
+        margin: 0 1rem;
     }
     
     .section-footer .Vulcan {
         flex: 0 0 auto; 
-        height: 4.3rem;
+        height: 5rem;
         display: inline-block;
         margin-left: 0 auto;
-        padding-right: 30rem;
-
-   
-   
+        padding-right: 15rem;
     }
     
-    .section-footer img {
+    .footer-logos img {
         width: 2.5rem;
         height: 2.5rem;
     }
@@ -162,19 +187,19 @@ a.email::before {
         list-style: none;
         margin-right: auto;
         margin-left: auto;
-       
     }
+
     .section-footer ul li{
         display: inline-block;
     }
+
     a.call, a.email {
         position: relative;
     }
+
     a.call::before {
         content: "\e801";
         font-family: "fontello";
-        // position: absolute;
-        
         left: 0;
         top: 0;
     }
@@ -186,8 +211,3 @@ a.email::before {
         top: 0;
     }
 }
-
-
-
-//practice github
-

@@ -1,7 +1,11 @@
 @use "variables" as *;
 @use "mixins" as *;
 
-h3 {
+.section-customized h2 {
+    color: $text-color-dark-gray;
+}
+
+.section-customized h3 {
     color: $text-color-dark-gray;
     text-transform: $text-transform-upper;
     font-size: 1rem;
@@ -12,10 +16,13 @@ h3 {
 .section-customized {
     background-color: $wave-white;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .section-customized h2 {
-    margin: .625rem 3.125rem;
+    margin: 0 3.125rem .625rem; 
+    padding-top: 0;
 }
 
 .section-customized p {
