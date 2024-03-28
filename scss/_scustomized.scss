@@ -12,10 +12,13 @@ h3 {
 .section-customized {
     background-color: $wave-white;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .section-customized h2 {
-    margin: .625rem 3.125rem;
+    margin: 0 3.125rem .625rem; 
+    padding-top: 0;
 }
 
 .section-customized p {
