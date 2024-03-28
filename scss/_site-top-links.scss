@@ -1,0 +1,58 @@
+// Site top links styles
+@use "variables" as *;
+
+.site-top-links {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-top-links ul{
+    padding: 0;
+    vertical-align: top;
+}
+
+.site-top-links li {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.site-top-links li a {
+    color: $text-color-light;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+@media (min-width: $tabletPortrait) {
+    .site-top-links {
+        display: flex;
+    }
+}
+
+.top-vulcan-logo img {
+    width: 10rem;
+    padding-top: 2rem;
+}
+
+@media (min-width: $desktopMedium) {
+    .top-vulcan-logo img {
+        width: 14rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .top-vulcan-logo img {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}
+
+@media (min-width: $desktopFull) {
+    .top-vulcan-logo img {
+        margin-left: 30rem;
+        margin-right: 30rem;
+    }
+}

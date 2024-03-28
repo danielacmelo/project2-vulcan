@@ -114,7 +114,7 @@
 
 .nav-bar li {
     text-decoration: none;
-    padding: 0.25rem 0 0.25rem 1rem;
+    padding: 0.15rem 0 0.15rem 1rem;
 }
 
 .nav-bar a {
@@ -154,6 +154,10 @@
 
     .desktop-nav-items {
         display: block;
+    }
+
+    .desktop-nav-items li a {
+        font-size: 1rem;
     }
 }
 
