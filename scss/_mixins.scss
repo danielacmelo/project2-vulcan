@@ -55,6 +55,15 @@
     flex-wrap: wrap;
 }
 
+//flex-row and center
+@mixin flex-row-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
 //flex with centered elements
 @mixin flex-center {
     display: flex;
