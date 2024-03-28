@@ -1,6 +1,28 @@
 // Header Styles
 @use "variables" as *;
 
+.site-header {
+    height: 610px;
+}
+
+@media (min-width: $tabletPortrait) {
+    .site-header {
+        height: 680px;
+    }
+}
+
+@media (min-width: $desktopMedium) {
+    .site-header {
+        height: 700px;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .site-header {
+        height: 760px;
+    }
+}
+
 .site-header h1 {
     margin: 0 auto;
     color: $text-color-light;

@@ -92,8 +92,14 @@
 }
 
 .nav-bar.show {
-    // display: block;
     height: 15.1956rem;
+}
+
+// Prevents menu from staying at large height when switching to a larger screen
+@media (min-width: $tabletPortrait) {
+    .nav-bar.show {
+        height: auto;
+    }
 }
 
 .desktop-nav-items {
