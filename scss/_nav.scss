@@ -82,7 +82,6 @@
 // Drop-down styling
 ////////////////////
 .nav-bar {
-    // display: none;
     position: absolute;
     background-color: $nav-bg;
     width: 100%;
@@ -92,7 +91,7 @@
 }
 
 .nav-bar.show {
-    height: 15.1956rem;
+    height: 13.125rem;
 }
 
 // Prevents menu from staying at large height when switching to a larger screen
