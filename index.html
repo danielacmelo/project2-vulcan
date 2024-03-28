@@ -15,26 +15,44 @@
     <header class="site-header">
         <section class="site-top-links">
             <ul>
-                <li>Install Map</li>
-                <li>Product Literature</li>
-                <li>+1 712-642-2755</li>
-                <li>Contact Us</li>
+                <li><a href="#">Install Map</a></li>
+                <li><a href="#">Product Literature</a></li>
+                <li>
+                    <a href="index.html" class="top-vulcan-logo">
+                        <img src="images/logo-white-vulcan.svg" alt="Vulcan Logo">
+                    </a>
+                </li>
+                <li><a href="#">+1 712-642-2755</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </section>
 
-        <div class="mobile-header-wrapper">
-            <a href="index.html" class="vulcan-logo">
-            <img class="site-logo" src="images/logo-white-vulcan.svg" alt="Vulcan Logo">
-            </a>
-            
-            <div class="hamburger-menu" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+        <div class="mobile-nav-wrapper">
+            <div class="mobile-header-wrapper">
+                <a href="index.html" class="vulcan-logo">
+                <img src="images/logo-white-vulcan.svg" alt="Vulcan Logo">
+                </a>
+                
+                <div class="hamburger-menu" id="hamburger-menu" onclick="toggleMenu()">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                </div>
             </div>
 
-            <nav class= nav-bar id="nav-bar">
-                <ul>
+            <nav class="nav-bar" id="nav-bar">
+                <ul class="mobile-nav-items" id="items">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Parts</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Installation Map</a></li>
+                    <li><a href="#">Product Literature</a></li>
+                </ul>
+
+                <ul class="desktop-nav-items">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Services</a></li>
@@ -44,7 +62,6 @@
                 </ul>
             </nav>
         </div>
-        
 
         <h1>We design and fabricate indestructible wastewater screens. Enough said.</h1>
         
@@ -55,6 +72,18 @@
             </ul>
         </section>
 
+        <div class="slide-container">
+            <img class="slide" id="slide-1" src="images/header-slider-img-01.jpg" alt="Machinery">
+            <img class="slide" id="slide-2" src="images/header-slider-img-02.jpg" alt="Employee Welding">
+            <img class="slide" id="slide-3" src="images/header-slider-img-03.jpg" alt="Employees Working">
+        </div>
+
+        <div class="slide-buttons">
+            <a class="slide-btn" id="first-slide" onclick="firstSlide()"></a>
+            <a class="slide-btn" id="second-slide" onclick="secondSlide()"></a>
+            <a class="slide-btn" id="third-slide" onclick="thirdSlide()"></a>
+        </div>
+        
         <img class="wave white-wave" src="images/wave-white.png" alt="White Wave">
 
     </header>

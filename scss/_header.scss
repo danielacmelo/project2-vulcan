@@ -1,12 +1,214 @@
 // Header Styles
 @use "variables" as *;
 
-.site-header {
-    // background-image: url(/images/header-slider-img-03.jpg);
-}
+// IMPORTANT - REMOVE BEFORE MERGING //
+///////////////////////////////////////
+// .section-media iframe {
+//     width: 20rem;
+// }
+
+//////////////////////////////////////
 
 .site-top-links {
     display: none;
+    justify-content: space-around;
+    align-items: center;
 }
 
-// Testing PR
+.site-top-links ul{
+    padding: 0;
+    vertical-align: top;
+}
+
+.site-top-links li {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.site-top-links li a {
+    color: $text-color-light;
+    text-transform: uppercase;
+}
+
+@media (min-width: $tabletPortrait) {
+    .site-top-links {
+        display: flex;
+    }
+}
+
+.top-vulcan-logo img {
+    width: 10rem;
+    padding-top: 2rem;
+}
+
+@media (min-width: $desktopMedium) {
+    .top-vulcan-logo img {
+        width: 14rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .top-vulcan-logo img {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}
+
+@media (min-width: $desktopFull) {
+    .top-vulcan-logo img {
+        margin-left: 30rem;
+        margin-right: 30rem;
+    }
+}
+
+.site-header h1 {
+    margin: 0 auto;
+    color: $text-color-light;
+    display: block;
+    padding: 3rem 1rem;
+    text-transform: uppercase;
+    max-width: 39.375rem;
+    height: 14.375rem;
+}
+
+@media (min-width: $tabletPortrait) {
+    .site-header h1{
+        height: 16.5rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: $desktopMedium) {
+    .site-header h1{
+        max-width: 51.875rem;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .site-header h1{
+        max-width: 58.125rem;
+        font-size: 3.5rem;
+        height: 18rem;
+    }
+}
+
+.view-links ul {
+    text-align: center;
+    padding: 0;
+    height: 4.8125rem;
+}
+
+@media (min-width: $tabletPortrait) {
+    .view-links ul{
+        height: auto;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .view-links ul{
+        padding: 2rem 0 0;
+    }
+}
+
+.view-links li {
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.view-links li a {
+    color: $text-color-light;
+    font-family: $heading-font;
+    text-transform: uppercase;
+    // display: block;
+    padding: 0.5rem;
+    width: 10rem;
+    border: .0625rem solid $text-color-light;
+}
+
+@media (min-width: $tabletPortrait) {
+    .view-links li {
+        display: inline-block;
+        margin: 0 1rem;
+    }
+}
+
+.slide-container {
+    position: absolute;
+    height: 35rem;
+    width: 100%;
+    top: 0;
+    // left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+@media (min-width: $tabletPortrait) {
+    .slide-container {
+        height: 42rem;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .slide-container {
+        height: 46rem;
+    }
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-buttons {
+    width: 4rem;
+    margin: 4rem auto 1rem;
+    text-align: center;
+}
+
+@media (min-width: $tabletPortrait) {
+    .slide-buttons {
+        width: 6rem;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .slide-buttons {
+        margin: 2rem auto 1rem;
+    }
+}
+
+.slide-btn {
+    display: inline-block;
+    padding: 0.3rem;
+    margin: 0 0.1rem;
+    border-radius: 1rem;
+    background-color: $text-color-light;
+    cursor: pointer;
+}
+
+@media (min-width: $tabletPortrait) {
+    .slide-btn {
+        padding: 0.5rem;
+        margin: 0 0.3rem;
+    }
+}
+
+.wave {
+    left: 0;
+    overflow: hidden;
+    object-fit: cover;
+    height: 5rem;
+    width: 100%;
+}
+
+@media (min-width: $tabletPortrait) {
+    .wave {
+        height: 7rem;
+        object-fit: fill;
+    }
+}

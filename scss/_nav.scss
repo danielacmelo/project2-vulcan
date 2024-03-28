@@ -1,39 +1,170 @@
 @use "variables" as *;
 
+// Main nav styling
+///////////////////
+.mobile-nav-wrapper {
+    background-color: $nav-bg;
+}
+
+@media (min-width: $tabletPortrait) {
+    .mobile-nav-wrapper {
+        max-width: 46.875rem;
+        background-color: transparent;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $desktopMedium) {
+    .mobile-nav-wrapper {
+        max-width: 830px;
+    }
+}
+
 .mobile-header-wrapper {
     display: flex;
-    background-color: $nav-bg;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem 0.5rem;
+    z-index: 2;
 }
 
-.vulcan-logo {
-    size: 50%;
+@media (min-width: $tabletPortrait) {
+    .mobile-header-wrapper {
+        display: none;
+    }
 }
 
+.vulcan-logo img {
+    height: 2.5rem;
+}
+
+@media (min-width: $tabletPortrait) {
+    .vulcan-logo {
+        display: none;
+    }
+}
+// Hamburger styling
+////////////////////
 .hamburger-menu {
     display: flex;
     flex-direction: column;
 }
 
+@media (min-width: $tabletPortrait) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+.hamburger-menu.switch {
+    .bar1 {
+        transform: rotate(-45deg);
+    }
+
+    .bar2 {
+        opacity: 0;
+    }
+
+    .bar3 {
+        transform: rotate(45deg);
+    }
+}
+
 .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #ffffff;
-    margin: 3px 0;
+    width: 1.6875rem;
+    height: .1875rem;
+    transform-origin: right;
+    background-color: $text-color-light;
+    margin: .2031rem 0;
     transition: 0.4s;
 }
 
+// Drop-down styling
+////////////////////
 .nav-bar {
+    // display: none;
+    position: absolute;
+    background-color: $nav-bg;
+    width: 100%;
+    height: 0;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.nav-bar.show {
+    // display: block;
+    height: 15.1956rem;
+}
+
+.desktop-nav-items {
     display: none;
 }
 
 .nav-bar ul {
+    transform: translateY(-200%);
     list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-bar ul.show {
+    transform: translateY(0%);
 }
 
 .nav-bar li {
     text-decoration: none;
-    display: block;
+    padding: 0.25rem 0 0.25rem 1rem;
 }
 
+.nav-bar a {
+    text-transform: uppercase;
+    color: $text-color-light;
+}
+
+.nav-bar li:hover,
+.nav-bar li:active {
+    background-color: $wave-light;
+}
+
+@media (min-width: $tabletPortrait) {
+    .nav-bar {
+        display: flex;
+        height: auto;
+        position: relative;
+        transition: none;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 46.875rem;
+    }
+
+    .nav-bar ul {
+        transform: translateY(0%);
+        transition: none;
+    }
+
+    .nav-bar ul li {
+        display: inline-block;
+        padding: 0.75rem 2rem;
+    }
+
+    .mobile-nav-items {
+        display: none;
+    }
+
+    .desktop-nav-items {
+        display: block;
+    }
+}
+
+@media (min-width: $desktopMedium) {
+    .nav-bar {
+        max-width: 51.875rem;
+    }
+}
+
+@media (min-width: $desktopLarger) {
+    .nav-bar ul li {
+        padding: 1.5rem 2.5rem;
+    }
+}

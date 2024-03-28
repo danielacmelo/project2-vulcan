@@ -1,8 +1,8 @@
-// Colors
+ // Colors
 $wave-dark: #244A64;
 $wave-light: #009DDC;
 $wave-white: #ffffff;
-$nav-bg: #38383883;
+$nav-bg: #383838c5;
 $background-gray:#BBBBBB;
 
 // Text Colors
@@ -26,7 +26,6 @@ $text-decoration-under: underline;
 
 
 
-
 // // Layout variables
 $padding: 30px;
 
@@ -39,9 +38,10 @@ $link-hover-selector: '&:hover, &:focus, &:active';
 $desktop-min: 50em; // Temp value, can change
 
 // Media Query Breakpoints
-
-$desktopMedium: 78.1875em;
-$tabletLandscape: 64em;
+$tabletLandscape: 64em; // Get rid of if not using
 $tabletPortrait: 53.125em;
-$phoneLandscape: 41.875em;
+$phoneLandscape: 41.875em; // Get rid of if not using
 $phonePortrait: 26.25em;
+$desktopMedium: 78.1875em;
+$desktopLarger: 99.375em;
+$desktopFull: 120em;
