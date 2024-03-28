@@ -1,0 +1,115 @@
+// @use "variables" as *;
+// @use "typography" as *;
+
+// // .section-signup {
+// //     background-color: #B1CDE1;
+// // }
+
+// // .section-signup h2 {
+// //     font-size: 1rem; 
+// //     color: $wave-dark;
+// //     font-weight: 500;
+// //     padding: .5rem 1rem 1rem;
+// //     margin: 1rem;
+// // }
+
+// // .submit {
+// //     background-color: $wave-light;
+// //     border-color: $wave-light;
+// //     color: $wave-white;
+// //     padding: .5rem 1rem;
+// //     font-weight: 600;
+// //     border-style: none;
+// //     margin: .5rem;
+// // }
+
+// // label {
+// //     display: none;
+// // }
+
+// // .mailbox {
+// //     margin: .5rem;
+// //     padding: .5rem;
+// // }
+
+// @use "variables" as *;
+// @use "typography" as *;
+// @use "mixins" as *;
+
+// .section-signup {
+//     background-color: #B1CDE1;
+//     text-align: center;
+//     padding: 24px 0;
+// }
+
+// .section-signup h2 {
+//     font-size: 1.4rem;
+//     color: $wave-dark;
+//     font-weight: 500;
+//     padding-bottom: 8px;
+//     margin: 0;
+// }
+
+// label {
+//     display: none;
+// }
+
+
+// .email {
+//     width: 70%;
+//     padding: 6px;
+// }
+
+// .submit {
+//     background-color: $wave-light;
+//     border-color: $wave-light;
+//     color: $wave-white;
+//     padding: 8px 16px;
+//     font-weight: 700;
+//     border-style: none;
+//     margin: 8px;
+//     flex: 0 0 auto;
+// }
+
+// @include phone-landscape {
+//     .section-signup {
+//         @include flex-row;
+//         padding: 8px 0;
+//     }
+
+//     .section-signup h2 {
+//         font-size: 1.2rem;
+//         padding: 0 16px;
+//     }
+    
+//     .signup {
+//         @include flex-row;
+//     }
+
+//     .email {
+//         width: 70%;
+//         padding: 6px;
+//     }
+// }
+
+// @include tablet-portrait {
+//     .section-signup {
+//         @include flex-row;
+//     }
+
+//     .section-signup h2 {
+//         font-size: 1.25rem;
+//         padding: 0 16px;
+//     }
+
+//     .signup {
+//         @include flex-row;
+//     }
+
+//     .email {
+//         width: 20rem;
+//         padding: 6px;
+//     }
+   
+// }
+
