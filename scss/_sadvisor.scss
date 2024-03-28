@@ -76,17 +76,34 @@
 
 @media (min-width: $tabletPortrait) {
 
+	.forms-section-advisor-container {
+		display: flex;
+		flex-direction: row;
+	}
 
 
 
+	.section-product-advisor label {
+		display: inline;
+		
+	}
+	
+	.section-product-advisor input[type="submit"] {
+		display: inline;  
+	}
+	
+	.section-product-advisor select {
+		display: inline;
+	}
 
-.section-product-advisor h2{
-	font-size: 2.5rem;
-}
 
-.section-product-advisor p{
-	font-size: 1.25rem;
-}
+	.section-product-advisor h2{
+		font-size: 2.5rem;
+	}
+
+	.section-product-advisor p{
+		font-size: 1.25rem;
+	}
 
 
 
