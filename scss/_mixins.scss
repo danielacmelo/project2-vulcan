@@ -72,11 +72,18 @@
     flex-direction: column;
 }
 
-
-@mixin flex-justify-center {
+@mixin flex-row {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    align-items: center;
 }
 
-//flex
+//breakpoint mixins
+@mixin phone-portrait {
+    @media (max-width: 420px) { @content; }
+}
+@mixin tablet-portrait {
+    @media (min-width: 850px) { @content; }
+}
+@mixin desktop-med {
+    @media (min-width: 1251px) { @content; }
+}

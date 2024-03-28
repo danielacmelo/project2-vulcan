@@ -1,7 +1,6 @@
 @use "variables" as *;
 @use "mixins" as *;
 
-
 h3 {
     color: $text-color-dark-gray;
     text-transform: $text-transform-upper;
@@ -110,4 +109,3 @@ h3 {
 
 
     }   
-    

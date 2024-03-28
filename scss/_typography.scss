@@ -7,29 +7,34 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, nav a {
+    text-transform: uppercase;
     font-family: $heading-font;
 }
+
 
 h1 {
     font-size: 2.6rem; 
     text-align: center;
     
 }
+
 h2{
     font-size: 2rem;
     color: $text-color-dark-gray;
     text-transform: $text-transform-upper;
     text-align: center;
-   
 }
+
 h3{
     font-size: 1.6rem;
     
 }
+
 p{
-    font-size: 17px;
+    font-size: 1rem;
     text-align: center;
 }
+
 a{
     text-decoration: none;
 }
