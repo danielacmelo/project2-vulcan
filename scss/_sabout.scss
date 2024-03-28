@@ -27,15 +27,15 @@
 }
 .section-about a{
     border: 1px solid $wave-white;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 4rem;
     font-size: 1rem;
     text-transform: uppercase;
-    font-weight: $font-weight;
+    font-weight: $font-weight-headings;
 }
 
 a:hover, a:visited{
     color: $wave-white;
-    font-weight: $font-weight;
+    font-weight: $font-weight-headings;
 }
 
 @media (min-width:$tabletLandscape) {
