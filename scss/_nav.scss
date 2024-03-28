@@ -16,7 +16,7 @@
 
 @media (min-width: $desktopMedium) {
     .mobile-nav-wrapper {
-        max-width: 830px;
+        max-width: 51.875rem;
     }
 }
 
@@ -92,8 +92,14 @@
 }
 
 .nav-bar.show {
-    // display: block;
     height: 15.1956rem;
+}
+
+// Prevents menu from staying at large height when switching to a larger screen
+@media (min-width: $tabletPortrait) {
+    .nav-bar.show {
+        height: auto;
+    }
 }
 
 .desktop-nav-items {
@@ -114,7 +120,7 @@
 
 .nav-bar li {
     text-decoration: none;
-    padding: 0.25rem 0 0.25rem 1rem;
+    padding: 0.15rem 0 0.15rem 1rem;
 }
 
 .nav-bar a {
@@ -154,6 +160,10 @@
 
     .desktop-nav-items {
         display: block;
+    }
+
+    .desktop-nav-items li a {
+        font-size: 1rem;
     }
 }
 
