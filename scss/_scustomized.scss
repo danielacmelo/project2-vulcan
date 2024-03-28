@@ -1,6 +1,7 @@
 @use "variables" as *;
 @use "mixins" as *;
 
+
 .section-customized {
     background-color: $wave-white;
     text-align: center;
@@ -11,7 +12,7 @@
 .section-customized h2 {
     margin: 0 3.125rem .625rem; 
     padding-top: 0;
-    color: $text-color-dark-gray;
+    color: #545454
 }
 
 .section-customized h3 {
@@ -62,70 +63,15 @@
     width: 100%;
 }
 
-// @media (min-width: $tabletPortrait) {
+@media (min-width: $tabletPortrait) {
 
-
-//     .container-service-customized {
-//         display: flex;
-//         flex-direction: row;
-//         text-align: center ;
-//         justify-content: center;
-//     }
-
-//     .section-customized h2 {
-//         font-size: 2.5rem;
-//     }
-
-//     .section-customized h3 {
-//         font-size: 1.5rem;
-//         color: $text-color-blue;
-//     }
-    
-
-//     .section-customized p {
-//         margin: 1.25rem;
-//     }   
-
-
-//     .section-customized a,
-//     .section-customized a:visited,
-//     .section-customized a:hover,
-//     .section-customized a:active,
-//     .section-customized a:focus{  
-//         display: inline-block;
-//     }
-    
-//     .article-section-customized {
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: stretch;
-//         align-items: center;
-//         margin: 10px .625rem 30px;
-//         border-top: none;
-//         text-align: center;
-//     }
-    
-//     .article-section-customized img {
-//         width: 100%;
-//     }
-    
-//     .wave-dark-wave {
-//         left: 0;
-//         height: auto;
-//         width: 100%;
-//     }
-    
-// }
-
-
-
-@media (min-width: $desktopMedium) {
 
     .container-service-customized {
         display: flex;
         flex-direction: row;
         text-align: center ;
         justify-content: center;
+        align-items: center;
     }
 
     .section-customized h2 {
@@ -138,9 +84,10 @@
         color: $text-color-blue;
     }
     
-    
+
     .section-customized p {
         margin: 1.25rem;
+        font-size: 1.25rem;
     }   
 
 
@@ -160,6 +107,7 @@
         margin: 10px .625rem 30px;
         border-top: none;
         text-align: center;
+        word-wrap: wrap;
     }
     
     .article-section-customized img {
@@ -172,4 +120,24 @@
         width: 100%;
     }
     
+}
+
+
+
+@media (min-width: $desktopMedium) {
+
+    
+    .section-customized h2 {
+        font-size: 2.5rem;
+    }
+
+    .section-customized h3 {
+        font-size: 1.5rem;
+    }
+    
+
+    .section-customized p {
+        margin: 1.25rem;
+    }   
+
 }
