@@ -2,24 +2,24 @@
 @use "variables" as *;
 
 .site-header {
-    height: 610px;
+    height: 38.125rem;
 }
 
 @media (min-width: $tabletPortrait) {
     .site-header {
-        height: 680px;
+        height: 42.5rem;
     }
 }
 
 @media (min-width: $desktopMedium) {
     .site-header {
-        height: 700px;
+        height: 43.75rem;
     }
 }
 
 @media (min-width: $desktopLarger) {
     .site-header {
-        height: 760px;
+        height: 47.5rem;
     }
 }
 
