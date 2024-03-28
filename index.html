@@ -99,62 +99,54 @@
         <section class="section-product-advisor">
             <h2>Product Advisor</h2>
             <p>Find your project's perfect fit.</p>
-        <form class="forms">
-            <label for="fname">Product Type</label>
-            <select name="fname" id="fname">
-                <option>Select</option>
-                <option>Screening</option>
-                <option>Grit Handling</option>
-                <option>Screenings Handling</option>
-                <option>Sludge Thickening</option>
-            </select>
+            <form class="forms">
+                <fieldset>
+                    <label for="fname">Product Type</label>
+                    <select name="fname" id="fname">
+                    <option>Select</option>
+                    <option>Lorem ipsum</option>
+                    <option>Lorem ipsum/option>
+                    </select>
 
-            <label for="screen-location">Screen Location</label>
-            <select name="fname" id="fname">
-                <option>Select</option>
-                <option>Hipster Ipsum </option>
-                <option>Hipster Ipsum </option>
-                <option>Hipster Ipsum </option>
+                    <label for="screen-location">Screen Location</label>
+                    <select name="fname" id="fname">
+                    <option>Select</option>
+                    <option>Lorem ipsum</option>
+                    <option>Lorem ipsum</option>  
+                    </select>
+
+                    <label for="flow-type">Flow Type</label>
+                    <select name="fname" id="fname">
+                    <option>Select</option>
+                    <option>Lorem Ipsum</option>
+                    <option>Lorem Ipsum</option>
+                    
+                    </select>
+
+                    <label for="Channel-depth">Channel Depth</label>
+                    <select name="fname" id="fname">
+                    <option>Select</option>
+                    <option>Lorem Ipsum</option>
+                    <option>Lorem Ipsum</option>
+                    </select>
+
+                    <label for="Channel-width">Channel Width</label>
+                    <select name="fname" id="fname">
+                    <option>Select</option>
+                    <option>Lore Ipsum</option>
+                    <option>Lore Ipsum</option>
+                    </select>
                 
-            </select>
-
-            <label for="flow-type">Flow Type</label>
-            <select name="fname" id="fname">
-                <option>Select</option>
-                <option>Zombie Ipsum</option>
-                <option>Zombie Ipsum</option>
-                
-            </select>
-
-            <label for="Channel-depth">Channel Depth</label>
-            <select name="fname" id="fname">
-                <option>Select</option>
-                <option>Cupcake Ipsum</option>
-                <option>Cupcake Ipsum</option>
-                <option>Cupcake Ipsum</option>
-                <option>Cupcake Ipsum</option>
-            </select>
-
-            <label for="Channel-width">Channel Width</label>
-            <select name="fname" id="fname">
-                <option>Select</option>
-                <option>Ipsum</option>
-                <option>Ipsum</option>
-                <option>Ipsum</option>
-                <option>Ipsum</option>
-            </select>
-            <br>
-
-            <input type="submit" value="Find my Product" class="submit">
-
-        </form>
+                    <input type="submit" value="Find my Product" class="submit">
+                <fieldset>       
+            </form>
             
         </section>
         
         <section class="section-about">
             <h2>Delivering clean, safe water since 1975. Refreshing Indeed.</h2>
             <p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply of more than 900 cities and communities throughout the world.</p>
-            <a href="#">About</a>
+            <a href="#">ABOUT US</a>
         </section>
         
         <section class="section-media">
@@ -166,35 +158,42 @@
         <section class="section-signup">
             <h2> Stay in the know. Sign up for the newsletter.</h2>
             <form>
-                <label for="email">Enter your email:</label>
-                <input type="email" id="email" name="email">
+                <label for="email" class="mail-label">Enter your email:</label>
+                <input class="mailbox" type="email" id="email" name="email" placeholder="Enter your Email">
                 <input type="submit" value="SUBMIT" class="submit">
             </form>
         </section>
         
-        <section class="section-install">
-            <h2>Installed in a city near you</h2>
-            <button class="locations-button" type="button">Find a Vulcan install</button>
-        </section>
-        
-        <section class="section-ready">
-            <h2>Ready to spec Vulcan for your project?</h2>
-            <button class="contact-button" type="button">Contact Us</button>
-        </section>
+        <div class="install-wrapper">
+            <section class="section-install">
+                <h2>Installed in a city near you</h2>
+                <button class="locations-button" type="button">Find a Vulcan install</button>
+            </section>
+            
+            <section class="section-ready">
+                <h2>Ready to spec Vulcan for your project?</h2>
+                <button class="contact-button" type="button">Contact Us</button>
+            </section>
+        </div>
 
     </main>
     
     <footer class="section-footer">
 
         <img class="wave light-wave" src="images/wave-blue-light.png" alt="Light Blue Wave">
+        <!-- <img class="Vulcan" src="images/logo-white-vulcan.svg"     width: 200px;
+        height: 60px; style="    width: 200px;
+        height: 60px;"> -->
+        <img class="Vulcan" src="images/logo-white-vulcan.svg"> 
 
         <ul>
             <li><img src="images/icon-white-facebook.png"></li>
             <li><img src="images/icon-white-linkedin.png"></li>
-            <li><a href="tel:+17126422755">+1 712-642-2755</a></li>
-            <li><a href="mailto:info@example.com">CONTACT US</a></li> 
+            <li><a href="#" class="call">+1 712-642-2755</a></li>
+            <li><a href="mailto:info@example.com" class="email">CONTACT US</a></li> 
+             
         </ul> 
-        <p>Copyright 2017. All rights reserved</p>   
+        <p>Copyright 2017. All rights reserved</p> 
         
     </footer>
     </div>
