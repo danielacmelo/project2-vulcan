@@ -1,7 +1,11 @@
 @use "variables" as *;
 @use "mixins" as *;
 
-h3 {
+.section-customized h2 {
+    color: $text-color-dark-gray;
+}
+
+.section-customized h3 {
     color: $text-color-dark-gray;
     text-transform: $text-transform-upper;
     font-size: 1rem;
