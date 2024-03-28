@@ -2,7 +2,71 @@
 @use "mixins" as *;
 
 
+
 .section-product-advisor{
-    color: $text-color-light;
-    
+    color: $text-color-light; 
+    background-color: $wave-dark; 
+	padding: 0 .625rem;
 }
+
+.section-product-advisor h2{
+	margin-bottom: .25rem;
+}
+
+.section-product-advisor p{
+	margin-bottom: 2rem;
+}
+
+
+.section-product-advisor form {
+    max-width: 320px;
+	padding: 1.25rem 0;
+    font-weight: 600;
+    border-top: 1px solid;
+
+}
+
+.section-product-advisor fieldset {
+    padding: 0;
+	margin-bottom: 1.875rem;
+    border: none;    
+}
+
+.section-product-advisor select {
+	border: none;
+	font-size: 1rem;
+	height: auto;
+	margin-bottom: 1rem;
+	outline: 0;
+	padding: .9375rem;
+	width: 100%;
+	background-color: $background-gray;
+	color: $text-color-gray;
+    padding: .375rem;
+	height: 2.5rem;
+}
+
+
+#product-type {
+	background-color: #f2f5fa;
+
+}
+
+.section-product-advisor label {
+	display: block;
+    margin-bottom: .3125rem;
+}
+
+.section-product-advisor input[type="submit"] {
+	padding: .625rem;
+	color: $text-color-light;
+	background-color: $wave-light;
+	font-size: .9375rem;
+	text-align: center;
+	width: 100%;
+    margin-top: 2.5rem;
+	margin-bottom: .625rem;
+    text-transform: uppercase;
+    border: none;    
+}
+
