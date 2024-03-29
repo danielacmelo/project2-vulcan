@@ -53,16 +53,16 @@ a:hover, a:visited{
 
 @media (min-width: $desktopMedium){
     .section-about p {
-        min-width:  50em;
+        max-width:  50em;
         font-size: 1em;
         margin: 0 2em 4em;
-        padding: 0 6em;
+        padding: 0 2em;
     }
 
     .section-about h2{
-        font-size: 2em;
+        font-size: 2.5em;
         margin: 1em 6em;
-        padding: 0 4em;
+        padding: 0 2em;
         max-width: 50em;
      }
 }
