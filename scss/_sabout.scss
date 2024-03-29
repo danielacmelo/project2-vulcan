@@ -10,56 +10,59 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 9.3rem 0 ;  
+    padding: 9.3em 0 ;  
     color: $text-color-light;
     text-align: center;
     
 }
 .section-about h2{
-    font-weight: $font-weight;
+    font-weight: 700;
     line-height: $line-height;
-    margin-bottom: 2rem;
+    margin: 1em 1.5em;
 }
 .section-about p {
-    font-size: 1.25rem;
-    margin: 0 auto 2rem;
-    width: 18.75rem;
+    font-size: 1em;
+    margin: 0 1.5em 6em;
+    padding: 0 3em;
 }
 .section-about a{
     border: 1px solid $wave-white;
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
+    padding: .75em 2em;
+    font-size: 1em;
     text-transform: uppercase;
-    font-weight: $font-weight;
+    font-weight: $font-weight-headings;
 }
 
 a:hover, a:visited{
     color: $wave-white;
-    font-weight: $font-weight;
+    font-weight: $font-weight-headings;
 }
 
-@media (min-width:$tabletLandscape) {
-    .section-about p {
-        min-width:  37.5rem;
-       
-    }
+@media (min-width:$tabletPortrait) {
     .section-about h2{
-       
-        font-size: 3rem;
-        max-width: 37.5rem;
-        
+        font-size: 2em;
+        margin: 1em 2em;
+        max-width: 37.5em;
      }
+    .section-about p {
+        min-width:  37.5em;
+        margin: 0 2em 6em;
+    }
+    
 }
 
 @media (min-width: $desktopMedium){
     .section-about p {
-        min-width:  50rem;
-       
+        max-width:  50em;
+        font-size: 1em;
+        margin: 0 2em 4em;
+        padding: 0 2em;
     }
+
     .section-about h2{
-       
-         font-size: 4rem;
-        max-width: 50rem;
-        
+        font-size: 2.5em;
+        margin: 1em 6em;
+        padding: 0 2em;
+        max-width: 50em;
      }
 }

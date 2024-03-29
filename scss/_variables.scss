@@ -39,9 +39,9 @@ $desktop-min: 50em; // Temp value, can change
 
 // Media Query Breakpoints
 $tabletLandscape: 64em; // Get rid of if not using
-$tabletPortrait: 53.125em;
+$tabletPortrait: 53.125em;  //850px
 $phoneLandscape: 41.875em; // Get rid of if not using
-$phonePortrait: 26.25em;
-$desktopMedium: 78.1875em;
-$desktopLarger: 99.375em;
-$desktopFull: 120em;
+$phonePortrait: 26.25em; // 420px
+$desktopMedium: 78.1875em; // 1251px
+$desktopLarger: 99.375em; // 1590px
+$desktopFull: 120em; // 1920px
