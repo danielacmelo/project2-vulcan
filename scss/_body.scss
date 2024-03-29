@@ -1,12 +1,8 @@
 // Body Styles
 @use "variables" as *;
 
-
-
-
 body {
     background-color: $wave-light;
-  
 }
 
 iframe{
@@ -17,9 +13,4 @@ iframe{
 
 .section-media p a {
     display: none;
-}
-
-.wave {
-    width: 100%;
-    height: auto;
 }

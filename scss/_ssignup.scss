@@ -5,14 +5,15 @@
 .section-signup {
     background-color: #B1CDE1;
     text-align: center;
-    padding: 24px 0;
+    padding: 1.5em 0;
 
     h2 {
-        font-size: 1.4rem;
+        font-size: 1.4em;
         color: $wave-dark;
         font-weight: 500;
-        padding-bottom: 8px;
+        padding-bottom: .5em;
         margin: 0;
+        text-transform: none;
     }
     
     label {
@@ -21,17 +22,18 @@
     
     .mailbox {
         width: 60vw;
-        padding: 6px;
+        padding: 0.375em;
+        border:none;
     }
     
     .submit {
-        background-color: $wave-light;
-        border-color: $wave-light;
-        color: $wave-white;
-        padding: 8px 16px;
+        background-color: $text-color-blue;
+        border-color: $text-color-blue;
+        color: $text-color-light;
+        padding: .5em 1em;
         font-weight: 700;
         border-style: none;
-        margin: 8px;
+        margin: .5em;
         flex: 0 0 auto;
     }
 }
@@ -42,13 +44,13 @@
         justify-content: center;
         
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.5em;
             padding: 0;
-            margin: .5rem;
+            margin: .5em;
         }
         
         .mailbox {
-            margin: 0 1rem;
+            margin: 0 1em;
             width: 30vw;
         }
 
@@ -63,7 +65,7 @@
         }
 
         .submit {
-            padding: .5rem 1.5rem;
+            padding: .5em 1.5em;
         }
     }
 }

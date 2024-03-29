@@ -2,25 +2,8 @@
 @use "variables" as *;
 
 .site-header {
-    height: 38.125rem;
-}
-
-@media (min-width: $tabletPortrait) {
-    .site-header {
-        height: 42.5rem;
-    }
-}
-
-@media (min-width: $desktopMedium) {
-    .site-header {
-        height: 43.75rem;
-    }
-}
-
-@media (min-width: $desktopLarger) {
-    .site-header {
-        height: 47.5rem;
-    }
+    height: auto;
+    background-image: linear-gradient(to top, $wave-white 2%, rgba(0,0,0,0) 2%);
 }
 
 .site-header h1 {
@@ -59,7 +42,6 @@
     height: 35rem;
     width: 100%;
     top: 0;
-    // left: 0;
     overflow: hidden;
     z-index: -1;
 }
@@ -118,20 +100,21 @@
 }
 
 .wave {
-    left: 0;
+    // left: 0;
     overflow: hidden;
     object-fit: cover;
+    // object-position: center;
     height: 7rem;
     width: 100%;
-}
-
-.white-wave {
-    bottom: 0;
+    // position: absolute;
+    // width: 46rem;
+    // height: 9rem;
+    // left: -4.25rem;
 }
 
 @media (min-width: $tabletPortrait) {
     .wave {
-        height: 7rem;
+        // height: 7rem;
         object-fit: fill;
     }
 }
