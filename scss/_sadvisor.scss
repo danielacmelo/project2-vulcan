@@ -2,6 +2,10 @@
 @use "mixins" as *;
 
 
+.forms-section-advisor-container{
+	display: flex;
+	justify-content: center;
+}
 
 .section-product-advisor{
     color: $text-color-light; 
@@ -11,17 +15,19 @@
 }
 
 .section-product-advisor h2{
+	font-size: 1.7rem;
 	margin-bottom: .25rem;
 	margin-top: 0;
 }
 
 .section-product-advisor p{
 	margin-bottom: 2rem;
+	margin-top: 0.5rem;
 }
 
 
 .section-product-advisor form {
-    max-width: 320px;
+	width: 300px;
 	padding: 1.25rem 0;
     font-weight: 600;
     border-top: 1px solid;
@@ -66,34 +72,76 @@
 	font-size: .9375rem;
 	text-align: center;
 	width: 100%;
-    margin-top: 2.5rem;
-	margin-bottom: .625rem;
+	margin-bottom: 2rem;
     text-transform: uppercase;
     border: none;    
 }
 
 
-
 @media (min-width: $tabletPortrait) {
 
+	.section-product-advisor {
+		padding: 0 1.25rem;
+	}
 
+	.section-product-advisor form {
+    	// width: 50rem;
+		width: 100%;
+	}
+	
+	.section-product-advisor fieldset {
+		display: flex;
+		margin-bottom: 0;
+		flex-wrap: wrap;
+		
+		margin: 0;
+		column-gap: 1%;
+	}
+	
+	.section-product-advisor label {
+		display: block;
+		margin-bottom: 0.3125rem;
+	}
+	
+	.container-select {
+		display: flex;
+		flex-direction: column;
+		padding: .3125rem .3125rem;
+		width: 49.5%;
+		padding: 0;
+	}
+	
+	
+	.section-product-advisor p{
+		font-size: 1.25rem;
+		color: $text-color-blue;
+	}
 
+	.section-product-advisor input[type="submit"]{
+		margin-top: 1.25rem;
+	}
 
-
-.section-product-advisor h2{
-	font-size: 2.5rem;
 }
-
-.section-product-advisor p{
-	font-size: 1.25rem;
-}
-
-
-
-}
-
 
 @media (min-width: $desktopMedium) {
+
 	
-	
+	.section-product-advisor {
+		padding: 0 2.5rem;
+	}
+
+	.section-product-advisor fieldset {
+		flex-wrap: nowrap;
+		column-gap: 0.625rem;
+	}
+
+	.container-select {
+		width: 100%;
+		flex-grow: 1;
+	}
+
+	.section-product-advisor h2{
+		font-size: 2rem;
+		;
+	}
 }
