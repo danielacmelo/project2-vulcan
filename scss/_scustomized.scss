@@ -112,8 +112,9 @@
     
 
     .section-customized p {
-        margin: 1.25rem;
+        margin: 1.25rem auto;
         font-size: 1.25rem;
+        max-width: 900px;
     }   
 
 
@@ -163,7 +164,7 @@
     
 
     .section-customized p {
-        margin: 1.25rem;
+        margin-bottom: 3rem;
     }   
 
 }
