@@ -91,9 +91,8 @@
 		display: flex;
 		margin-bottom: 0;
 		flex-wrap: wrap;
-		width: 850px;
+		width: 90vw;
 	}
-	
 	
 	
 	.section-product-advisor label {
@@ -121,37 +120,43 @@
 	color: $text-color-blue;
 }
 
-
-
 }
-
 
 @media (min-width: $desktopMedium) {
 	
 
-	.section-product-advisor form {
-    	max-width: 100%;
 
-}
-	
 	.section-product-advisor fieldset {
-		display: flex;
+		flex-wrap: wrap;
+		width: 90vw;
+	
 	}
 	
 	
+	
 	.section-product-advisor label {
-		display: block;
+		display: inline;
+		
+		
+	
 
 	}
 	
 	.container-select {
 		display: flex;
 		flex-direction: column;
-		margin: 20px;
+
 	}
 	
+	
+	
+.section-product-advisor h2{
+	font-size: 2.5rem;
+}
 
+.section-product-advisor p{
+	font-size: 1.25rem;
+	color: $text-color-blue;
+}
 
 }
-	
-
