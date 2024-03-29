@@ -6,40 +6,14 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    // height: 1060px; // LEAVE FOR AARON
+    height: auto;
+    background-image: linear-gradient(to top, $wave-dark 2%, rgba(0,0,0,0) 2%);
 }
-
-// //Adjustments for dark-wave
-// @media (min-width: 26.875em) {
-//     .section-customized {
-//         height: calc(100% - 20px);
-//     }
-// }
-
-// @media (min-width: 35.375em) {
-//     .section-customized {
-//         height: calc(100% - 20px);
-//     }
-// }
-
-// @media (min-width: 68.75em) {                   // LEAVE FOR AARON
-//     .section-customized {
-//         height: 1000px;
-//     }
-// }
-
-// @media (min-width: $desktopMedium) {
-//     .section-customized {
-//         height: auto;
-//     }
-// }
 
 .section-customized h2 {
     margin: 0 3.125rem .625rem; 
     padding-top: 0;
-    color: #545454;
-    z-index: 2;
-    position: relative;
+    color: $text-color-dark-gray;
 }
 
 .section-customized h3 {
