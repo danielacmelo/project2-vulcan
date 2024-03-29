@@ -2,6 +2,10 @@
 @use "mixins" as *;
 
 
+.forms-section-advisor-container{
+	display: flex;
+	justify-content: center;
+}
 
 .section-product-advisor{
     color: $text-color-light; 
@@ -21,7 +25,7 @@
 
 
 .section-product-advisor form {
-    max-width: 320px;
+    width: 20rem;
 	padding: 1.25rem 0;
     font-weight: 600;
     border-top: 1px solid;
@@ -73,12 +77,13 @@
 
 
 
+
 @media (min-width: $tabletPortrait) {
 
 	
 	
 	.section-product-advisor form {
-    	max-width: 1000px;
+    	width: 100%;
 
 }
 	
@@ -108,7 +113,7 @@
 	
 
 	.section-product-advisor form {
-    	max-width: 1000px;
+    	max-width: 100%;
 
 }
 	
